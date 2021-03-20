@@ -1,0 +1,15 @@
+.searchBox{
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding: 5px;
+}
+.searchDiv{
+    border: 2px solid black;
+}
+.searchBtn{
+    width: 200px;
+}
+.searchBox input{
+    height: 35px;
+    width:250px;
+}

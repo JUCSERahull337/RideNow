@@ -1,0 +1,25 @@
+.navLink{
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.navLink h4{
+    /* border: 2px solid red; */
+    margin: 10px;
+    padding:5px;
+    color: coral;
+}
+
+.navLink button{
+    /* border: 1px solid black; */
+    margin: 12px;
+    width:70px;
+    
+}
+.appName h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin:10px;
+    font-style: italic;
+    font-weight:bold;
+    color: cornflowerblue;
+}
