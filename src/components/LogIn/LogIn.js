@@ -29,7 +29,7 @@ const LogIn = () => {
         email: '',
         password: '',
         error:"",
-        success:" "
+        success:false
     })
 
 
@@ -130,7 +130,7 @@ const LogIn = () => {
 
             <form action="" onSubmit={handleSubmit} className="d-flex flex-column justify-content-center align-items-center  loginForm">
                 <input type="checkbox" onChange={()=> setNewUser(!newUser)} name="newUser" id=""/>
-                <label htmlFor="newUser">Create an account</label>
+                <label htmlFor="newUser">New here? Create an account</label>
                 {newUser && <input name="name" id="nameField" type="text" placeholder="Type your name" />}
                 <input name="email" onBlur={handleBlurChange} id="emailField" type="text" placeholder="Type your email" required />
                 <input name="password" onBlur={handleBlurChange} id="passwordField" type="password" placeholder="Type your password" required />

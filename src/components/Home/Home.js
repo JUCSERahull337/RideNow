@@ -16,10 +16,12 @@ const Home = (props) => {
     }
 
     return (
-        <div className="">
-            <div className="d-flex flex-column vehicles">
-                 <img src={imgUrl} alt="No image found" />
-                <button onClick={ () => searchOption(Name)} className="btn btn-warning m-3">{Name}</button>
+        <div>
+            <div className="d-flex justify-content-center align-items-center flex-column vehicleDiv">
+                <div className="d-flex flex-column vehicles">
+                    <img src={imgUrl} alt="No image found" className='image-fluid'  />
+                    <button onClick={ () => searchOption(Name)} className="btn btn-warning m-3">{Name}</button>
+                </div>
             </div>
         </div>
     );

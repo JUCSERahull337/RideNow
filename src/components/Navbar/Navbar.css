@@ -1,6 +1,8 @@
 .navLink{
     /* border: 1px solid black; */
     margin: 10px;
+    flex-wrap: wrap;
+    
 }
 .navLink h4{
     /* border: 2px solid red; */
@@ -12,7 +14,7 @@
 .navLink button{
     /* border: 1px solid black; */
     margin: 12px;
-    width:70px;
+    width:100px;
     
 }
 .appName h3{
@@ -21,5 +23,16 @@
     margin:10px;
     font-style: italic;
     font-weight:bold;
-    color: cornflowerblue;
+    color: rgba(209, 166, 23, 0.966);
+    /* border: 2px solid white; */
+}
+.userName{
+    font-size: 15px;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: auto;
+    font-weight: bold;
+}
+.homeDiv{
+    background-image: url('https://thefridgeagency.com/wp-content/uploads/sites/3/2018/06/June_CustomerJourney_1000px.jpg');
 }

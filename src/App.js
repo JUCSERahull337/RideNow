@@ -12,6 +12,7 @@ import LogIn from "./components/LogIn/LogIn";
 import Navbar from "./components/Navbar/Navbar";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Search from "./components/Search/Search";
+import VehicleCard from "./components/VehicleCard/VehicleCard";
 import vehicle from "./vehicle/vehicle.json";
  export const UserContext = createContext();
 
@@ -34,9 +35,14 @@ function App() {
               </Route>
               <PrivateRoute path="/:type/search">
                   <Search></Search>
+                 
               </PrivateRoute>
+              <PrivateRoute path='/vehicleCard/:ride'>
+                <VehicleCard></VehicleCard>
+              </PrivateRoute>
+
               <Route exact path="/">
-                <div className="d-flex justify-content-around m-5 p-4">
+                <div className="d-flex justify-content-around m-5 p-4 ">
                   {
                     vehicle.map(vehicle => <Home vehicle = {vehicle}></Home> )
                   }

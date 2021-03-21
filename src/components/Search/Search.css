@@ -4,7 +4,9 @@
     padding: 5px;
 }
 .searchDiv{
-    border: 2px solid black;
+    border: 2px solid gray;
+    margin: 5px;
+    background-color: rgb(157, 195, 202);
 }
 .searchBtn{
     width: 200px;
