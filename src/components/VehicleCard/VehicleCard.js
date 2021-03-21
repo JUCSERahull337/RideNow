@@ -17,12 +17,12 @@ const VehicleCard = () => {
     })
     return (
         <div className="d-flex justify-content-between showComponent">
-        <div className="placeAndPrice">
+        <div className="destination">
             <div className="placeName">
                 <p>From : {}</p>
                 <p>To   : {}</p>
             </div>
-            <div className="d-flex justify-content-around pricePart">
+            <div className="d-flex justify-content-around cardPart">
                 <img src={rideImg} alt='No img found' className="image-fluid"/>
                 <div className="d-flex flex-column priceBox">
                     <p>{rideName}</p>
