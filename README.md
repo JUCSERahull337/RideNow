@@ -7,7 +7,7 @@
 - Facebook is kept as optional for further development
 - One will be able to choose ride for his journey along with a map and price
 ## Technology Used:
-- React JS, Bootstrap, ES6 , HTML5
+- React JS, React Routing, Bootstrap, ES6 , HTML5,CSS, React hooks, JSON 
 - I've used firebase for authentication system
 - Hosted on firebase
 
